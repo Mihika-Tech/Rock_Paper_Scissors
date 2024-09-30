@@ -51,34 +51,34 @@ const game = () => {
         }
         else if (player == 'rock') {
             if (computer == 'paper') {
-                result.textContent = 'Computer Won';
+                result.textContent = 'Computer Chose Paper. Computer Won.';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
 
             } else {
-                result.textContent = 'Player Won'
+                result.textContent = 'Computer Chose Scissors. Player Won.'
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
         }
         else if (player == 'scissors') {
             if (computer == 'rock') {
-                result.textContent = 'Computer Won';
+                result.textContent = 'Computer Chose Rock. Computer Won.';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             } else {
-                result.textContent = 'Player Won';
+                result.textContent = 'Computer Chose Paper. Player Won.';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
         }
         else if (player == 'paper') {
             if (computer == 'scissors') {
-                result.textContent = 'Computer Won';
+                result.textContent = 'Computer Chose Scissors. Computer Won.';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             } else {
-                result.textContent = 'Player Won';
+                result.textContent = 'Computer Chose Rock. Player Won.';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
