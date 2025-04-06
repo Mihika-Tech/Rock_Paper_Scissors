@@ -1,4 +1,4 @@
-# ✂️ Cute Throw Showdown 🎀
+# ✂️ Rock Paper Scissors 🎀
 
 🌸 An adorable Rock-Paper-Scissors game with pastel aesthetics and playful interactions!
 
