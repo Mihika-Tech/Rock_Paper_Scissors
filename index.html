@@ -8,46 +8,27 @@
           content="width=device-width, 
                    initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Rock Paper Scissor</title>
+    <title>🌸 Cute Throw Showdown 🎀</title>
 </head>
 <body>
-    <section class="game">
-        <!--Title -->
-        <div class="title">Rock Paper Scissor</div>
-        
-          <!--Display Score of player and computer -->
-        <div class="score">  
-            <div class="playerScore">
-                <h2>Player</h2>
-                <p class="p-count count">0</p>
+  <div class="container">
+    <h1>🎀 Cute Throw Showdown ✂️</h1>
+    
+    <div class="choices">
+        <button class="choice-btn" data-choice="rock">🪨</button>
+        <button class="choice-btn" data-choice="paper">📜</button>
+        <button class="choice-btn" data-choice="scissors">✂️</button>
+    </div>
 
-            </div>       
-            <div class="computerScore">
-                <h2>Computer</h2>
-                <p class="c-count count">0</p>
+    <div id="result">Let's Play! 🌸 Choose your move</div>
 
-            </div>
-        </div>
-      
-        <div class="move">Choose your move</div>
-        
-          <!--Number of moves left before game ends -->
-        <div class="movesleft">Moves Left: 10 </div>
-        
-          <!--Options available to player to play game -->
-        <div class="options">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissor">Scissors</button>    
-        </div>
-        
-          <!--Final result of game -->
-        <div class="result"></div>
-        
-          <!--Reload the game -->
-        <button class="reload"></button>
+    <div id="score">
+        <div class="score-item">You: <span id="player-score">0</span> 🍪</div>
+        <div class="score-item">Computer: <span id="computer-score">0</span> 🎀</div>
+    </div>
 
-    </section>
+    <button id="reset-btn">🔄 Reset Game</button>
+</div>
 
     <script src="script.js"></script>
 </body>
